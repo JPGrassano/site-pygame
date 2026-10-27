@@ -1,0 +1,16 @@
+MAPA DO INFERNO DE DANTE
+Arquivo: mapa-inferno-dante.png
+Ilustração criada com a ferramenta integrada de geração de imagens em 27/10/2026,
+a pedido do usuário, para a seção Sobre o jogo.
+Referências de estilo: cenario/mapa_ilustrado.png e nove-circulos.png do projeto do grupo.
+Prompt final: redesenhar o mapa em composição vertical 2:3, como um funil em corte,
+com exatamente nove níveis separados na ordem Limbo, Luxúria, Gula, Avareza, Ira,
+Heresia, Violência, Fraude e Traição; arte gótica e pixelada nas cores dos cenários;
+fundo opaco #21182e; sem personagens, texto, números, interface ou marcas-d'água.
+O arquivo é uma ilustração do universo do jogo, não uma captura de gameplay.
+
+MASCOTE DO PYGAME
+Arquivo: mascote-pygame.bmp
+Arte original obtida no repositório oficial do Pygame, sem alteração dos pixels.
+Fonte: https://github.com/pygame/pygame/blob/main/src_py/pygame_icon_mac.bmp
+Disponibilização de logos pelo projeto: https://www.pygame.org/docs/logos.html

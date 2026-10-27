@@ -1,0 +1,11 @@
+/* Reset próprio: remove diferenças padrão entre navegadores. */
+*, *::before, *::after { box-sizing: border-box; }
+html, body, h1, h2, h3, p, ul, ol, dl, dd, figure { margin: 0; padding: 0; }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; }
+body { min-height: 100svh; }
+img, video, object { display: block; max-width: 100%; }
+img, video { height: auto; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+table { border-collapse: collapse; }
+[hidden] { display: none !important; }

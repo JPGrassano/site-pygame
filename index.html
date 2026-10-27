@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alice Kyteler: Nove círculos. Conheça o jogo, os controles, os criadores e seu desenvolvimento.">
+  <meta name="theme-color" content="#16101f">
+  <title>Alice Kyteler: Nove círculos</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="pular botao" href="#conteudo">Pular para o conteúdo</a>
+  <header class="cabecalho">
+    <div class="limite navegacao">
+      <nav aria-label="Menu principal">
+        <a href="#inicio">Início</a><a href="#sobre">O jogo</a><a href="#controles">Controles</a>
+        <a href="#download">Download</a><a href="#diario">Diário</a>
+        <a href="#equipe">Equipe</a><a href="#avaliacoes">Avaliações</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section id="inicio" class="secao hero" aria-labelledby="titulo">
+      <div class="limite linha">
+        <div class="coluna apresentacao">
+          <p class="etiqueta">Um jogo de Caio e João</p>
+          <h1 id="titulo">Alice Kyteler<span>Nove círculos</span></h1>
+          <p class="resumo">Nove girões até a salvação. Use a magia e a agilidade de Alice para atravessar o inferno.</p>
+          <div class="acoes"><a class="botao" href="#sobre">Conhecer o jogo</a><a class="botao secundario" href="#download">Download e instalação</a></div>
+          <p class="nota">Pacote disponível para download. Versão do projeto de 26 de outubro de 2026.</p>
+        </div>
+        <figure class="retrato">
+          <object data="imagens/alice.jpg" type="image/jpeg" width="1024" height="1024" aria-label="Alice em pixel art, com chapéu de bruxa e roupas roxas.">
+            <p>A imagem de Alice não carregou. <a href="#sobre">Continuar para a apresentação do jogo.</a></p>
+          </object>
+        </figure>
+      </div>
+    </section>
+
+    <section id="sobre" class="secao alternada" aria-labelledby="titulo-sobre">
+      <div class="limite">
+        <div class="linha">
+          <figure class="mapa-inferno">
+            <img src="imagens/mapa-inferno-dante.png" alt="Mapa ilustrado do Inferno de Dante em nove níveis: Limbo, Luxúria, Gula, Avareza, Ira, Heresia, Violência, Fraude e Traição. O terreno se afunila até um lago de gelo." width="1024" height="1536" loading="lazy">
+          </figure>
+          <div class="coluna">
+            <p class="etiqueta">A jornada de Alice</p>
+            <h2 id="titulo-sobre">Sobre o jogo</h2>
+            <p>Após a morte, a poderosa bruxa Alice Kyteler se encontra no inferno. Para ascender ao céu e alcançar a salvação eterna, ela precisa atravessar seus nove girões e expurgar os pecados de seu corpo.</p>
+            <p>Em um lugar fúnebre e solitário, Alice usa seus poderes mágicos e sua movimentação ágil para enfrentar obstáculos e desafios.</p>
+            <h3>Seu objetivo</h3>
+            <p>Atravesse todos os girões e supere seus obstáculos. Busque o menor número de mortes e o menor tempo possível.</p>
+            <a class="link" href="#controles">Conhecer os controles →</a>
+          </div>
+        </div>
+        <div class="subsecao" aria-labelledby="titulo-telas">
+          <h3 id="titulo-telas">Telas do jogo</h3>
+          <p>Registros visuais da ambientação dos nove círculos. Selecione a imagem para ampliá-la.</p>
+          <div class="galeria">
+            <figure class="tela"><a href="imagens/nove-circulos.png" aria-label="Ampliar os registros dos nove círculos"><img src="imagens/nove-circulos.png" alt="Montagem com registros do jogo nos cenários Limbo, Luxúria, Gula, Avareza, Ira, Heresia, Violência, Fraude e Traição." width="1650" height="975" loading="lazy"></a><figcaption>Nove círculos, nove ambientes.</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="controles" class="secao" aria-labelledby="titulo-controles">
+      <div class="limite linha">
+        <div class="coluna">
+          <p class="etiqueta">Teclado e mouse na mão</p>
+          <h2 id="titulo-controles">Como jogar</h2>
+          <p>Consulte os comandos antes de começar. As combinações ficam visíveis durante a leitura.</p>
+          <dl class="comandos">
+            <div><dt><kbd>A</kbd> e <kbd>D</kbd></dt><dd>Caminhar para a esquerda e para a direita</dd></div>
+            <div><dt><kbd>Espaço</kbd></dt><dd>Pular; segure para alcançar mais altura</dd></div>
+            <div><dt>Botão esquerdo do mouse</dt><dd>Segure e mova o mouse para mirar; solte para lançar Alice na direção da seta</dd></div>
+            <div><dt><kbd>Shift</kbd> + <kbd>W</kbd> / <kbd>S</kbd></dt><dd>Agarrar a parede e subir ou descer</dd></div>
+            <div><dt><kbd>Espaço</kbd> na parede</dt><dd>Saltar da parede</dd></div>
+          </dl>
+          <p class="nota">O impulso tem uma carga, recuperada ao pousar; tocar paredes não recarrega. A mira não pausa o jogo. Para escalar, segure qualquer um dos Shift e acompanhe a barra de fôlego.</p>
+          <details class="ajuda"><summary>Pausa e outros atalhos</summary><dl class="comandos"><div><dt><kbd>Esc</kbd></dt><dd>Pausar</dd></div><div><dt><kbd>S</kbd> no ar</dt><dd>Queda rápida</dd></div><div><dt><kbd>R</kbd></dt><dd>Voltar à fogueira</dd></div><div><dt><kbd>F3</kbd></dt><dd>Ligar ou desligar o som</dd></div><div><dt><kbd>F11</kbd></dt><dd>Tela cheia</dd></div></dl><p class="nota">Voltar à fogueira com R conta uma morte e mantém o relógio da tentativa. Para começar do zero, use Reiniciar no menu de pausa.</p></details>
+        </div>
+        <div class="plataformas" aria-hidden="true"><span></span><span></span><span></span><b>↑</b></div>
+      </div>
+    </section>
+
+    <section id="download" class="secao alternada" aria-labelledby="titulo-download">
+      <div class="limite linha topo">
+        <div class="coluna cartao-download">
+          <p class="etiqueta">Leve Alice com você</p>
+          <h2 id="titulo-download">Download</h2>
+          <p>Baixe o jogo com seu código, cenários, personagem, músicas e instruções. Extraia a pasta inteira antes de começar.</p>
+          <a class="botao" href="downloads/alice-kyteler.zip" download>Baixar Alice Kyteler — ZIP</a>
+          <p class="nota">Aproximadamente 66 MB · Python 3.10+ · pygame-ce 2.5.8<br>Pacote baseado no commit <code>8c41a25</code>.</p>
+          <a class="link" href="#executar">Consultar as instruções ↓</a>
+        </div>
+        <div id="executar" class="coluna instrucoes">
+          <h3>Como executar</h3>
+          <ol class="passos">
+            <li><strong>Baixar e extrair.</strong><p>Baixe o ZIP e extraia a pasta <code>Alice-Kyteler</code>. Não execute o jogo de dentro do arquivo compactado.</p></li>
+            <li><strong>Instalar a dependência.</strong><p>Com o Python 3.10 ou superior instalado, abra um terminal na pasta extraída e execute:</p><pre><code>py -m pip install -r requirements.txt</code></pre></li>
+            <li><strong>Iniciar o jogo.</strong><p>No Windows, abra <code>Jogar.bat</code> ou execute no mesmo terminal:</p><pre><code>py jogo.py</code></pre></li>
+          </ol>
+          <details class="ajuda"><summary>O comando py não foi encontrado?</summary><p>Use o comando da sua instalação do Python, como <code>python</code> ou <code>python3</code>, tanto para instalar a dependência quanto para abrir <code>jogo.py</code>.</p></details>
+          <details class="ajuda"><summary>Apareceu um erro dizendo que falta pygame?</summary><p>Execute o comando de instalação do passo 2 e abra o jogo novamente com o mesmo Python. A dependência correta do projeto é <code>pygame-ce==2.5.8</code>.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="diario" class="secao" aria-labelledby="titulo-diario">
+      <div class="limite">
+        <p class="etiqueta">Construindo a jornada</p>
+        <h2 id="titulo-diario">Diário de desenvolvimento</h2>
+        <p>Um registro das etapas, dificuldades e soluções encontradas durante a criação do jogo.</p>
+        <ol class="diario">
+          <li><time datetime="2026-10-16">16 de outubro de 2026</time><h3>Primeiros registros do projeto</h3><p>Criação do repositório, configuração dos arquivos ignorados pelo Git e inclusão da primeira descrição no README.</p><p class="referencia">Registros: <code>33bd555</code>, <code>5e3be26</code> e <code>97692df</code>.</p></li>
+          <li><time datetime="2026-10-20">20 de outubro de 2026</time><h3>Alice começa a ganhar forma</h3><p>Inclusão das primeiras funções e do arquivo do jogo, acompanhada dos quadros de animação da bruxa para caminhada, salto, dash e escalada.</p><p class="referencia">Registros: <code>a01e244</code> e <code>dd59d9b</code>.</p></li>
+          <li><time datetime="2026-10-22">22 de outubro de 2026</time><h3>Estrutura da jornada</h3><p>Adição da campanha, dos cenários, dos percursos, da movimentação e da interface. O projeto passa a incluir instruções, um atalho para iniciar e testes das mecânicas.</p><p class="referencia">Registro: <code>0ec507b</code>.</p></li>
+          <li><time datetime="2026-10-23">23 de outubro de 2026</time><h3>Som, fogueiras e movimento</h3><p>Inclusão de músicas e efeitos sonoros, das fogueiras e de novas animações de escalada. Revisões na movimentação e na progressão acompanham novos testes de retorno visual, áudio e corrida.</p><p class="referencia">Registro: <code>0c131e9</code>.</p></li>
+          <li><time datetime="2026-10-24">24 de outubro de 2026</time><h3>Corridas e ranking local</h3><p>Revisão das tentativas, do relógio e da progressão. Inclusão do ranking local e de testes para registrar os tempos das corridas completas.</p><p class="referencia">Registros: <code>9fd8ae5</code> e <code>a174409</code>.</p></li>
+          <li><time datetime="2026-10-26">26 de outubro de 2026</time><h3>Ajustes de percurso, áudio e armadilhas</h3><p>Ajustes no início do Limbo e no fôlego da personagem, além de revisões no áudio e na cenografia. Inclusão da arte das armadilhas, de músicas para Luxúria, Gula e Avareza e de novos testes.</p><p class="referencia">Registros: <code>a135b35</code>, <code>b1669e4</code> e <code>8c41a25</code>.</p></li>
+        </ol>
+        <p class="nota">Resumos elaborados a partir das alterações registradas no histórico do repositório.</p>
+      </div>
+    </section>
+
+    <section id="pygame" class="secao alternada" aria-labelledby="titulo-pygame">
+      <div class="limite linha">
+        <figure class="mascote-pygame"><img src="imagens/mascote-pygame.bmp" alt="Cobrinha amarela do Pygame segurando um controle de videogame." width="256" height="256" loading="lazy"></figure>
+        <div class="coluna"><p class="etiqueta">Por trás do projeto</p><h2 id="titulo-pygame">Sobre o Pygame</h2><p>Pygame é uma biblioteca para criar jogos com Python. Ela oferece recursos para imagens, sons, animações e comandos do teclado.</p><a class="link" href="https://www.pygame.org/docs/">Ler a documentação oficial →</a></div>
+      </div>
+    </section>
+
+    <section id="equipe" class="secao" aria-labelledby="titulo-equipe">
+      <div class="limite">
+        <p class="etiqueta">Quem cria esse universo</p><h2 id="titulo-equipe">Equipe e contatos</h2>
+        <div class="equipe">
+          <article class="pessoa"><span class="inicial" aria-hidden="true">C</span><h3>Caio Ang Jaw</h3><p>Integrante do grupo.</p></article>
+          <article class="pessoa"><span class="inicial" aria-hidden="true">J</span><h3>João Pedro do Amaral Grassano</h3><p>Integrante do grupo.</p></article>
+        </div>
+        <a class="link repositorio" href="https://github.com/insper-classroom/26-2-devlife-pygame-Laranja">Ver o repositório do grupo no GitHub →</a><p class="nota">O acesso ao repositório pode exigir uma conta autorizada.</p>
+      </div>
+    </section>
+
+    <section id="avaliacoes" class="secao alternada" aria-labelledby="titulo-avaliacoes">
+      <div class="limite">
+        <p class="etiqueta">Do protótipo à versão final</p><h2 id="titulo-avaliacoes">Avaliações de design</h2>
+        <p>Espaço para documentar a primeira versão, os relatos recebidos e as mudanças feitas a partir das avaliações.</p>
+        <details class="documento"><summary>Protótipo em papel</summary><div class="galeria prototipos"><figure><img src="imagens/prototipo-inicio.jpeg" alt="Protótipo desenhado em papel com início, sobre o jogo e como jogar." width="1200" height="1600" loading="lazy"><figcaption>Início, apresentação e controles.</figcaption></figure><figure><img src="imagens/prototipo-final.jpeg" alt="Protótipo desenhado em papel com informações sobre Pygame e contatos." width="1200" height="1600" loading="lazy"><figcaption>Pygame e contatos.</figcaption></figure></div></details>
+        <details class="documento"><summary>Registro da primeira versão</summary><figure class="primeira-versao"><img src="imagens/primeira-versao.jpg" alt="Registro da primeira proposta do site, com fundo roxo, Alice e cinco seções." width="1424" height="3988" loading="lazy"><figcaption>Primeira proposta visual. A comparação final será registrada após a incorporação dos relatos recebidos.</figcaption></figure></details>
+        <details class="documento"><summary>Princípios CRAP: avaliação e melhorias</summary><div class="texto-documento"><p class="pendencia">Aguardando as avaliações reais dos grupos designados e os PDFs recebidos.</p><p>O relato final reunirá os pontos positivos e negativos identificados, as imagens que os demonstram e as melhorias aplicadas.</p><dl class="principios"><div><dt>Contraste</dt><dd>Verificar a leitura do texto, a distinção dos links e a hierarquia dos títulos.</dd></div><div><dt>Repetição</dt><dd>Verificar a consistência de cores, fontes, componentes e estados de interação.</dd></div><div><dt>Alinhamento</dt><dd>Verificar as margens e o posicionamento dos elementos em cada tamanho de tela.</dd></div><div><dt>Proximidade</dt><dd>Verificar se informações relacionadas ficam agrupadas e se as seções se distinguem.</dd></div></dl></div></details>
+        <details class="documento"><summary>Avaliação heurística do jogo</summary><div class="texto-documento"><p class="pendencia">Aguardando o jogo avaliado, as evidências e os resultados da análise.</p><p>A avaliação seguirá os dez critérios da disciplina, com notas de 1 a 5, justificativas, capturas de tela e sugestões específicas para as principais melhorias.</p></div></details>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape"><div class="limite linha"><p>Alice Kyteler: Nove círculos · Caio e João</p><a href="#inicio">↑ Voltar ao início</a></div></footer>
+</body>
+</html>
