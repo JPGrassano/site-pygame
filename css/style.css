@@ -50,6 +50,7 @@ p { color:var(--suave); margin-bottom:1.25rem; max-width:65ch; }
 .mapa-inferno figcaption { max-width:28rem; text-align:center; }
 .pendencia { padding:1rem 1.25rem; border-left:.2rem solid var(--ouro); background:var(--bloco); color:var(--texto); border-radius:0 .35rem .35rem 0; }
 .subsecao { margin-top:4rem; }
+.video-jogo { width:100%; height:auto; margin-top:1.5rem; border:.0625rem solid var(--borda); border-radius:var(--raio); background:#000; }
 .galeria { flex-wrap:wrap; gap:1.5rem; margin-top:1.5rem; }
 .galeria>figure { flex:1 1 18rem; min-width:0; }
 .tela a { display:block; border-radius:var(--raio); }
