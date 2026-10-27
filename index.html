@@ -65,7 +65,7 @@
       </div>
     </section>
 
-    <section id="video" class="secao" aria-labelledby="titulo-video">
+    <section id="video" class="secao alternada" aria-labelledby="titulo-video">
       <div class="limite">
         <p class="etiqueta">Alice em movimento</p>
         <h2 id="titulo-video">Veja o jogo em ação</h2>
@@ -159,11 +159,87 @@
     <section id="avaliacoes" class="secao alternada" aria-labelledby="titulo-avaliacoes">
       <div class="limite">
         <p class="etiqueta">Do protótipo à versão final</p><h2 id="titulo-avaliacoes">Avaliações de design</h2>
-        <p>Espaço para documentar a primeira versão, os relatos recebidos e as mudanças feitas a partir das avaliações.</p>
+        <p>Do esboço às escolhas de interface: pontos fortes, limitações e oportunidades de melhoria da página.</p>
         <details class="documento"><summary>Protótipo em papel</summary><div class="galeria prototipos"><figure><img src="imagens/prototipo-inicio.jpeg" alt="Protótipo desenhado em papel com início, sobre o jogo e como jogar." width="1200" height="1600" loading="lazy"><figcaption>Início, apresentação e controles.</figcaption></figure><figure><img src="imagens/prototipo-final.jpeg" alt="Protótipo desenhado em papel com informações sobre Pygame e contatos." width="1200" height="1600" loading="lazy"><figcaption>Pygame e contatos.</figcaption></figure></div></details>
         <details class="documento"><summary>Registro da primeira versão</summary><figure class="primeira-versao"><img src="imagens/primeira-versao.jpg" alt="Registro da primeira proposta do site, com fundo roxo, Alice e cinco seções." width="1424" height="3988" loading="lazy"><figcaption>Primeira proposta visual. A comparação final será registrada após a incorporação dos relatos recebidos.</figcaption></figure></details>
-        <details class="documento"><summary>Princípios CRAP: avaliação e melhorias</summary><div class="texto-documento"><p class="pendencia">Aguardando as avaliações reais dos grupos designados e os PDFs recebidos.</p><p>O relato final reunirá os pontos positivos e negativos identificados, as imagens que os demonstram e as melhorias aplicadas.</p><dl class="principios"><div><dt>Contraste</dt><dd>Verificar a leitura do texto, a distinção dos links e a hierarquia dos títulos.</dd></div><div><dt>Repetição</dt><dd>Verificar a consistência de cores, fontes, componentes e estados de interação.</dd></div><div><dt>Alinhamento</dt><dd>Verificar as margens e o posicionamento dos elementos em cada tamanho de tela.</dd></div><div><dt>Proximidade</dt><dd>Verificar se informações relacionadas ficam agrupadas e se as seções se distinguem.</dd></div></dl></div></details>
-        <details class="documento"><summary>Avaliação heurística do jogo</summary><div class="texto-documento"><p class="pendencia">Aguardando o jogo avaliado, as evidências e os resultados da análise.</p><p>A avaliação seguirá os dez critérios da disciplina, com notas de 1 a 5, justificativas, capturas de tela e sugestões específicas para as principais melhorias.</p></div></details>
+        <details class="documento">
+          <summary>Princípios CRAP: avaliação e melhorias</summary>
+          <div class="texto-documento">
+            <p class="nota">Autoavaliação da página em 27 de outubro de 2026, com comparação ao registro da primeira versão. Esta análise não substitui os relatos dos outros grupos.</p>
+            <dl class="principios">
+              <div><dt>Contraste</dt><dd>
+                <p><strong>Ponto positivo:</strong> o fundo roxo escuro, os títulos claros e os destaques dourados criam uma hierarquia legível. O botão de download se destaca do texto de apoio.</p>
+                <p><strong>Limitação:</strong> as divisórias são discretas; na primeira versão, o mesmo fundo em toda a página tornava as transições entre seções menos evidentes.</p>
+                <p><strong>Evolução e sugestão:</strong> a versão atual usa fundos alternados. O vídeo agora compartilha o fundo de “Sobre o jogo”, unindo a apresentação. Manter os títulos e os espaçamentos como limites visuais desse conjunto.</p>
+              </dd></div>
+              <div><dt>Repetição</dt><dd>
+                <p><strong>Ponto positivo:</strong> a paleta, as fontes, as bordas arredondadas e o estilo dos links se repetem. As teclas seguem o mesmo formato, facilitando a consulta dos controles.</p>
+                <p><strong>Limitação:</strong> a arte do jogo, a imagem do mapa e o ícone do Pygame têm acabamentos diferentes, sobretudo no fundo claro do mascote.</p>
+                <p><strong>Evolução e sugestão:</strong> o “Py” da primeira versão deu lugar ao mascote. Padronizar as molduras das ilustrações pode aproximar os estilos sem alterar as artes originais.</p>
+              </dd></div>
+              <div><dt>Alinhamento</dt><dd>
+                <p><strong>Ponto positivo:</strong> os blocos usam a mesma largura máxima e margens laterais. O layout em duas colunas organiza imagem e texto; em telas menores, o conteúdo passa para uma coluna.</p>
+                <p><strong>Limitação:</strong> os nove cenários reunidos em uma única imagem têm detalhes pequenos no celular, mesmo com a possibilidade de ampliar.</p>
+                <p><strong>Evolução e sugestão:</strong> a grade de margens da primeira versão foi mantida. Oferecer os cenários também como imagens individuais melhoraria a leitura dos detalhes.</p>
+              </dd></div>
+              <div><dt>Proximidade</dt><dd>
+                <p><strong>Ponto positivo:</strong> cada tecla fica junto da ação correspondente; instalação e download estão lado a lado. As avaliações permanecem agrupadas em painéis que podem ser abertos conforme o interesse.</p>
+                <p><strong>Limitação:</strong> o diário e os documentos tornam a página longa. “Equipe e contatos” apresenta os integrantes, mas não oferece um canal direto de contato.</p>
+                <p><strong>Evolução e sugestão:</strong> a página passou a reunir informações que faltavam na primeira versão, como instalação e vídeo. Adicionar um contato autorizado junto de cada integrante deixaria a seção mais completa.</p>
+              </dd></div>
+            </dl>
+          </div>
+        </details>
+        <details class="documento">
+          <summary>Avaliação heurística do site</summary>
+          <div class="texto-documento">
+            <p class="nota">Inspeção da interface da página em 27 de outubro de 2026. Os pontos abaixo são observações de projeto, não resultados de testes com jogadores ou de avaliação do jogo de outro grupo.</p>
+            <p>Referência: <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">dez heurísticas de usabilidade de Jakob Nielsen</a>. Para cada critério, registramos uma qualidade e uma melhoria possível.</p>
+            <dl class="principios">
+              <div><dt>1. Visibilidade do estado do sistema</dt><dd>
+                <p><strong>Ponto positivo:</strong> o player mostra tempo e progresso do vídeo; o download informa tamanho e versão do pacote.</p>
+                <p><strong>Melhoria:</strong> o menu não identifica a seção atual durante a rolagem. Um destaque de localização ajudaria a orientar a navegação.</p>
+              </dd></div>
+              <div><dt>2. Correspondência com o mundo real</dt><dd>
+                <p><strong>Ponto positivo:</strong> os comandos são apresentados como teclas e ações, com expressões como “pular” e “subir ou descer”. A arte reforça o tema da jornada de Alice.</p>
+                <p><strong>Melhoria:</strong> “dependência” e os comandos do terminal podem ser pouco familiares a iniciantes. Uma sequência ilustrada da instalação reduziria essa dificuldade.</p>
+              </dd></div>
+              <div><dt>3. Controle e liberdade do usuário</dt><dd>
+                <p><strong>Ponto positivo:</strong> o visitante escolhe quando reproduzir o vídeo e quais painéis abrir. Há navegação por seções e retorno ao início.</p>
+                <p><strong>Melhoria:</strong> a imagem ampliada abre o arquivo na mesma aba. Uma indicação para usar “Voltar” tornaria o retorno mais evidente.</p>
+              </dd></div>
+              <div><dt>4. Consistência e padrões</dt><dd>
+                <p><strong>Ponto positivo:</strong> links, botões, títulos e painéis usam estilos recorrentes. O player mantém os controles conhecidos do navegador.</p>
+                <p><strong>Limitação:</strong> o ZIP é identificado como uma versão anterior aos controles atuais. É prioritário atualizar o pacote e a identificação da versão em conjunto, evitando divergências entre site e jogo baixado.</p>
+              </dd></div>
+              <div><dt>5. Prevenção de erros</dt><dd>
+                <p><strong>Ponto positivo:</strong> as instruções pedem a extração da pasta inteira e indicam a versão do Python e a dependência correta antes de executar o jogo.</p>
+                <p><strong>Melhoria:</strong> explicitar junto ao download que o jogo exige teclado e mouse em um computador evitaria a expectativa de jogar no celular.</p>
+              </dd></div>
+              <div><dt>6. Reconhecimento em vez de memorização</dt><dd>
+                <p><strong>Ponto positivo:</strong> os comandos ficam visíveis ao lado de suas funções. Os passos de instalação são numerados e podem ser consultados novamente.</p>
+                <p><strong>Melhoria:</strong> a mira pelo mouse é descrita apenas em texto. Uma imagem da seta com uma explicação de “segurar, mirar e soltar” facilitaria o reconhecimento.</p>
+              </dd></div>
+              <div><dt>7. Flexibilidade e eficiência de uso</dt><dd>
+                <p><strong>Ponto positivo:</strong> o menu permite saltar etapas de leitura; os painéis de ajuda atendem a quem precisa de detalhes. O link “Pular para o conteúdo” favorece a navegação por teclado.</p>
+                <p><strong>Melhoria:</strong> incluir “Vídeo” no menu daria acesso direto à demonstração, sem precisar percorrer as seções anteriores.</p>
+              </dd></div>
+              <div><dt>8. Estética e design minimalista</dt><dd>
+                <p><strong>Ponto positivo:</strong> a paleta limitada, a hierarquia dos títulos e os espaços entre blocos preservam a identidade do jogo. Os documentos ficam recolhidos inicialmente.</p>
+                <p><strong>Melhoria:</strong> a galeria e o mapa ocupam bastante espaço vertical. Ajustar suas dimensões em telas pequenas pode encurtar o caminho até os controles e o download.</p>
+              </dd></div>
+              <div><dt>9. Reconhecer, diagnosticar e recuperar-se de erros</dt><dd>
+                <p><strong>Ponto positivo:</strong> a ajuda explica como resolver a ausência do comando “py” e do Pygame. Um link permite abrir ou baixar o MP4 separadamente.</p>
+                <p><strong>Melhoria:</strong> faltam instruções para falhas de extração ou arquivos ausentes. Incluir o erro esperado e a ação recomendada tornaria a recuperação mais objetiva.</p>
+              </dd></div>
+              <div><dt>10. Ajuda e documentação</dt><dd>
+                <p><strong>Ponto positivo:</strong> a página reúne objetivo, controles, vídeo, instalação e acesso à documentação oficial do Pygame.</p>
+                <p><strong>Melhoria:</strong> não há transcrição do vídeo nem canal direto de suporte. Uma descrição textual da demonstração e um contato autorizado ampliariam o acesso à ajuda.</p>
+              </dd></div>
+            </dl>
+            <p><strong>Prioridades:</strong> sincronizar o ZIP com a versão apresentada, facilitar a instalação para iniciantes e melhorar o acesso direto ao vídeo. Essas recomendações ainda não representam mudanças implementadas.</p>
+          </div>
+        </details>
       </div>
     </section>
   </main>
